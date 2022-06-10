@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kien' Store</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+    <!-- header -->
+    <header id="header">
+        <!-- header top -->
+        <div class="header__top">
+            <div class="container">
+                <section class="row flex">
+                    <div class="col-lg-5 col-md-0 col-sm-0 heade__top-left">
+                        <span>Kien's Store - Khẳng định đẳng cấp</span>
+                    </div>
+                    <nav class="col-lg-7 col-md-0 col-sm-0 header__top-right">
+                        <ul class="header__top-list">
+                            <li class="header__top-item">
+                                <a href="#" class="header__top-link">Đăng ký</a>
+                            </li>
+                            <li class="header__top-item">
+                                <a href="#" class="header__top-link">Đăng nhập</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </div>
+        <!--end header top -->
+
+        <!-- header bottom -->
+        <div class="header__bottom">
+            <div class="container">
+                <section class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-12 header__logo">
+                        <h1 class="header__heading">
+                            <a href="#" class="header__logo-link">
+                                <img src="img/logo.png" alt="Logo" class="header__logo-img">
+                            </a>
+                        </h1>
+                    </div>
+
+                    <div class="col-lg-6 col-md-7 col-sm-0 header__search">
+                        <select name="" id="" class="header__search-select">
+                            <option value="0">All</option>
+                        </select>
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm tại đây...">
+                        <button class="header__search-btn">
+                            <div class="header__search-icon-wrap">
+                                <i class="fas fa-search header__search-icon"></i>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div class="col-lg-2 col-md-0 col-sm-0 header__call">
+                        <div class="header__call-icon-wrap">
+                            <i class="fas fa-phone-alt header__call-icon"></i>  
+                        </div>
+                        <div class="header__call-info">
+                            <div class="header__call-text">
+                                Hotline
+                            </div>
+                            <div class="header__call-number">
+                                1900.8094
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="cart.html" class="col-lg-1 col-md-1 col-sm-0 header__cart">
+                        <div class="header__cart-icon-wrap">
+                            <span class="header__notice">2</span>
+                            <i class="fas fa-shopping-cart header__nav-cart-icon"></i>
+                        </div>
+                    </a>
+                </section>
+            </div>   
+        </div>
+        <!--end header bottom -->
+
+        <!-- header nav -->
+        <div class="header__nav">
+            <div class="container">
+                <section class="row">
+                    <div class="header__nav-menu-wrap col-lg-3 col-md-0 col-sm-0">
+                        <i class="fas fa-bars header__nav-menu-icon"></i>
+                        <div class="header__nav-menu-title">Danh mục sản phẩm</div>
+                    </div>
+
+                    <div class="header__nav col-lg-9 col-md-0 col-sm-0">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item">
+                                <a href="index.html" class="header__nav-link">Trang chủ</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="category.html" class="header__nav-link">Danh mục sản phẩm</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="product.html" class="header__nav-link">Sản phẩm</a>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </header>
+    <!--end header nav -->
+    <!-- score-top-->
+
+<button onclick="topFunction()" id="myBtn-scroll" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+    <!-- product -->
+    <section class="product">
+        <div class="container">
+            <div class="row bg-white pt-4 pb-4 border-bt pc">
+                <nav class="menu__nav col-lg-3 col-md-12 col-sm-0">
+                    <ul class="menu__list">
+                        <li class="menu__item menu__item--active">
+                            <a href="#" class="menu__link">
+                            <img src="images1/item/iphonelogo.png" alt=""  class="menu__item-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512">
+                            Iphone</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                            <img src="images1/item/androidlogo.png" alt="" class="menu__item-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512">
+                            Samsung</a>
+                        </li>
+                      
+                    </ul>
+                </nav>
+
+                <article class="product__main col-lg-9 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="product__main-img col-lg-4 col-md-4 col-sm-12">
+                            <div class="product__main-img-primary">
+                                <img src="images1/product/ipxs.jpg">
+                            </div>
+                        </div>
+
+                        <div class="product__main-info col-lg-8 col-md-8 col-sm-12">
+                            <div class="product__main-info-breadcrumb">Trang chủ / Sản phẩm</div>
+
+                            <a href="#" class="product__main-info-title">
+                                <h2 class="product__main-info-heading">Iphone X 64GB</h2>
+                            </a>
+
+                            <div class="product__main-info-rate-wrap">
+                                <i class="fas fa-star product__main-info-rate"></i>
+                                <i class="fas fa-star product__main-info-rate"></i>
+                                <i class="fas fa-star product__main-info-rate"></i>
+                                <i class="fas fa-star product__main-info-rate"></i>
+                                <i class="fas fa-star product__main-info-rate"></i>
+                            </div>
+
+                            <div class="product__main-info-price">
+                                <span class="product__main-info-price-current">7.550.000 VNĐ</span>
+                            </div>
+
+                            <div class="product__main-info-description">
+                                iPhone X 64 GB là cụm từ được rất nhiều người mong chờ muốn biết và tìm kiếm trên Google bởi đây là chiếc điện thoại mà Apple kỉ niệm 10 năm iPhone đầu tiên được bán ra.
+                            </div> 
+
+                            <div class="product__main-info-cart">
+                                <div class="product__main-info-cart-btn-wrap">
+                                    <button id="cart" style="background-color: white; border: 2px solid red; color: red;">Thêm vào giỏ hàng</button>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <button id="buynow" style="background-color: red; border: 2px solid white; color: white;">Mua ngay</button>
+                                </div>
+                            </div>
+
+                            <div class="product__main-info-contact">
+                                <a href="#" class="product__main-info-contact-fb">
+                                    <i class="fab fa-facebook-f"></i>
+                                    Chat Facebook
+                                </a>
+                                <div class="product__main-info-contact-phone-wrap">
+                                    <div class="product__main-info-contact-phone-icon">
+                                        <i class="fas fa-phone-alt "></i>
+                                    </div>
+                                    
+                                    <div class="product__main-info-contact-phone">
+                                        <div class="product__main-info-contact-phone-title">
+                                            Hotline
+                                        </div>
+                                        <div class="product__main-info-contact-phone-number">
+                                            1900.8094
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row bg-white">
+                        <div class="col-12 product__main-tab">
+                            <a href="#" class="product__main-tab-link product__main-tab-link--active">
+                                Thông tin chi tiết
+                            </a>
+                        </div>
+
+                        <div class="col-12 product__main-content-wrap">
+                            <h2 class="product__main-content-heading">
+                                Iphone X
+                            </h2>
+                            <img src="img/iphone-x-64gb-motachucnang.jpg" alt="ipX">
+                            <img src="img/motaipX.png" alt="ipX">
+                        </div>                        
+                    </div>
+                </article>
+
+                <aside class="product__aside col-lg-3 col-md-0 col-sm-0">
+                    <div class="product__aside-top">
+                        <div class="product__aside-top-item">
+                            <img src="images/shipper.png">
+                            <div class="product__aside-top-item-text">
+                                <p>
+                                    Giao hàng nhanh chóng
+                                </p>
+                                <span>
+                                    Chỉ trong vòng 24h
+                                </span>
+                            </div>
+                        </div>
+                        <div class="product__aside-top-item">
+                            <img style="height: 55px; width: 50px;" src="images/iphonelogo.png">
+                            <div class="product__aside-top-item-text">
+                                <p>
+                                    Sản phẩm chính hãng
+                                </p>
+                                <span>
+                                    Sản phẩm chính hãng VN/A
+                                </span>
+                            </div>
+                        </div>
+                        <div class="product__aside-top-item">
+                            <img src="images/less.png">
+                            <div class="product__aside-top-item-text">
+                                <p>
+                                    Mua hàng tiết kiệm
+                                </p>
+                                <span>
+                                    Rẻ hơn từ 10% đến 30%
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    </br></br></br></br></br></br></br></br></br></br></br>
+                    <div class="product__aside-bottom">
+                        <h3 class="product__aside-heading">
+                            Sản phẩm tương tự
+                        </h3>
+                        </br></br></br></br>
+                        <div class="product__aside-list">
+                            <div class="product__aside-item product__aside-item--border">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/ip11.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">Iphone 11</h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">11.090.000 VNĐ</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/ip11pro.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">iphone 11 Pro</h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">12.990.000 VNĐ</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/ip11promax.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">Iphone 11 Pro Max</h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">15.990.000 VNĐ</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/ip12.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">Iphone 12</h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">15.690.000 VNĐ</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/ip12promax.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">Iphone 12 Pro Max</h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">22.990.000 VNĐ</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/ip13.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">Iphone 13</h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">26.490.000 VNĐ</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/ip13mini.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">Iphone 13 Mini</h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">21.990.000 VNĐ</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="images1/product/ip13promax.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">Iphone 13 Pro Max</h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">33.190.000 VNĐ</span>
+                                    </div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>   
+        
+    <!-- footer -->
+    <footer>
+        <section class="footer__top">
+            <div class="container">
+                <div class="row">
+                    <article class="footer__top-intro col-lg-5 col-md-4 col-sm-6">
+                        <h4 class="footer__top-intro-heading">
+                            Về Kien's Store
+                        </h4>
+                        <div class="footer__top-intro-content">
+                            Kien's Store là Cửa hàng bán điện thoại dẫn đầu xu thế với
+                            đa dạng mẫu mã, hình thức sản phẩm cùng với chính sách chăm
+                            sóc khách hàng chất lượng. Đảm bảo sản phẩm đẹp, chất lượng
+                            khi đến tay người tiêu dùng <br> <br>
+                            Hotline: 1900.8094 <br>
+                            Kien's Store - Khẳng định đẳng cấp <br>
+                        </div>
+                    </article>
+
+                    <article class="footer__top-policy col-lg-3 col-md-4 col-sm-6">
+                        <h4 class="footer__top-policy-heading">
+                            Bộ phận hành chính
+                            </h4>
+    
+                            <ul class="footer__top-policy-list">
+                                <li class="footer__top-policy-item">
+                                    <a href="#" class="footer__top-policy-link">Giám đốc: Nguyễn Trung Kiên</a>
+                                </li>
+                                <li class="footer__top-policy-item">
+                                    <a href="#" class="footer__top-policy-link">KTV: Phạm Văn Minh</a>
+                                </li>
+                                <li class="footer__top-policy-item">
+                                    <a href="#" class="footer__top-policy-link">CSKH: Dương Thị Ngân Giang</a>
+                                </li>
+                                
+                            </ul>
+                    </article>
+
+                    <article class="footer__top-contact-wrap col-lg-4 col-md-4 col-sm-6">
+                        <h4 class="footer__top-contact-heading">
+                            Hotline liên hệ
+                        </h4>
+
+                        <div class="footer__top-contact">
+                            <div class="footer__top-contact-icon">
+                                <img src="images/phone_top.png" class="footer__top-contact-img">
+                            </div>
+
+                            <div class="footer__top-contact-phone-wrap">
+                                <div class="footer__top-contact-phone">
+                                   1900.8094
+                                </div>
+                                <div class="footer__top-contact-des">
+                                    Hỗ trợ 24/24 - Liên hệ ngay với chúng tôi
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <h4 class="footer__top-contact-heading">
+                            Contact us
+                        </h4>
+
+                        <div class="footer__top-contact-social">
+                            <a href="#" class="footer__top-contact-social-link">
+                                <img src="images/facebook.png">
+                            </a>
+                            <a href="#" class="footer__top-contact-social-link">
+                                <img src="images/youtube.png">
+                            </a>
+                            <a href="#" class="footer__top-contact-social-link">
+                                <img src="images/tiktok.png">
+                            </a>
+                            <a href="#" class="footer__top-contact-social-link">
+                                <img src="images/zalo.png">
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="footer__bottom">
+            <div class="container">
+                <div class="row">
+                    <span class="footer__bottom-content">@Produced by Kien's Group</span>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- end footer -->
+
+    <script src="js/jq.js"></script>
+    <script src="js/product.js"></script>
+        
+</body>
+</html>
